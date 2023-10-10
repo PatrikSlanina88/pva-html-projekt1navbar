@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 2000px;
-    
 }
 :root{
     --primary-color: rgb(138, 81, 13);
@@ -16,8 +14,6 @@
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 4rem;
-    display: flex;
-    float: left;  
 }
 .logo a{
     color: var(--primary-color);  
@@ -30,8 +26,6 @@
 .ne{
     display: flex;
     float: right;
-    max-width: 48.738%;
-    min-width: 48.738%;
     
 
 }
