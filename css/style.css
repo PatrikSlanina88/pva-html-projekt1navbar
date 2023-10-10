@@ -16,10 +16,8 @@
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 4rem;
-    background-color: var(--secondary-color);
-    float: left;
-    width: 51.262%;
-    
+    display: flex;
+    float: left;  
 }
 .logo a{
     color: var(--primary-color);  
@@ -30,11 +28,10 @@
 }
 
 .ne{
-    background-color: var(--primary-color); 
-    width: 48.738%;
     display: flex;
     float: right;
     max-width: 48.738%;
+    min-width: 48.738%;
     
 
 }
@@ -46,6 +43,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background: #333 url('../img/jebatbanik.png') no-repeat center center/cover;
 }
 #bar a{
     text-decoration: none;
