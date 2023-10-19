@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: 700;
+    
 }
 :root{
     --primary-color: rgb(138, 81, 13);
@@ -81,7 +83,7 @@
     align-items:center;
     height: 100%;
     padding: 2rem;
-    background-color: rgba(0,0, 0, 40%);
+    background-color: rgba(0,0, 0, 43%);
 }
 .l-heading{
     font-size: 3rem;
@@ -133,6 +135,9 @@
     padding: 0.5rem 0;
     border-bottom: #333 dotted 1px;
 }
+#what{
+    background-color: var(--secondary-color);
+}
 #what .items{
     display: flex ;
     padding: 1rem;
@@ -160,14 +165,26 @@
 }
 #who{
     display: flex;
+    background-color: var(--secondary-color);
+    
+    
     
 }
 #who div{
     flex: 2;
     justify-content: space-between;
+    background-color: var(--secondary-color);
+    
 }
 #who .who-img{
-    background: url(../img/nevim.jpeg)no-repeat center center/cover;
-    margin-left: 10rem;
     max-width: 500px;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0,0, 0, 43%);
+    border-radius: 0.5rem;
+    background: #333 url(../img/nevím.jpeg)no-repeat center center/cover;
+    
+}
+#zdroje{
+    background-color: var(--secondary-color);
 }
