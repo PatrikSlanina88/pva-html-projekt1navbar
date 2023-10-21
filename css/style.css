@@ -137,6 +137,9 @@ html {
     padding: 0.5rem 0;
     border-bottom: #333 dotted 1px;
 }
+#dva{
+    background-color: var(--fourth-color);
+}
 #what{
     background-color: var(--fourth-color);
     padding-top: 10rem;
@@ -176,14 +179,13 @@ html {
 }
 #who{
     display: flex;
-    background-color: var(--fourth-color);
+    
     padding-top: 15rem;
 }
 #who div{
     flex: 2;
     justify-content: space-between;
-    background-color:var(--fourth-color);
-    
+    background-color:var(--fourth-color);  
 }
 #who .who-img{
     max-width: 500px;
@@ -194,7 +196,6 @@ html {
 }
 #why{
     display: flex;
-    background-color: var(--fourth-color);
     padding-top: 20rem;
 }
 #why div{
@@ -212,7 +213,6 @@ html {
 }
 #when{
     display: flex;
-    background-color: var(--fourth-color);
     padding-top: 20rem;
 }
 #when div{
