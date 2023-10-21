@@ -8,10 +8,15 @@
     
 }
 :root{
-    --primary-color: rgb(138, 81, 13);
+    --primary-color: rgb(233, 154, 59);
     --secondary-color: rgb(131, 131, 131);
     --third-color:white;
+    --fourth-color:  rgb(160, 160, 160)
 }
+html {
+    scroll-behavior: smooth;
+}
+  
 .text-primary{
     color: var(--primary-color);
 }
@@ -22,13 +27,7 @@
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 3rem;
-}
-.logo a{
     color: var(--primary-color);  
-}
-.logo :hover{
-    background-color: var(--third-color);
-    border-radius: 30px;
 }
 
 .ne{
@@ -66,7 +65,7 @@
    
 }
 #bar ul li :hover{
-    background-color: rgb(255, 98, 0);
+    background-color: var(--primary-color);
     border-radius: 5px;
 }   
 #showcase{
@@ -84,6 +83,9 @@
     height: 100%;
     padding: 2rem;
     background-color: rgba(0,0, 0, 43%);
+}
+.prostred{
+    padding-top: 50px;
 }
 .l-heading{
     font-size: 3rem;
@@ -136,7 +138,8 @@
     border-bottom: #333 dotted 1px;
 }
 #what{
-    background-color: var(--secondary-color);
+    background-color: var(--fourth-color);
+    padding-top: 10rem;
 }
 #what .items{
     display: flex ;
@@ -148,12 +151,20 @@
     text-align: center;
     padding: 0rem;
 }
-#what .items .item i{
+#what .items .item .pistolero i{
     background-color: var(--primary-color);
     padding:2rem;
     border-radius: 50%;
     margin-bottom: 2rem;
+    color: black;
     
+    
+    
+}
+#what .items .item .pistolero :hover {
+    background-color: rgb(255, 98, 0);
+    text-decoration: none;
+    border-radius: 50%;
 }
 .bg-light{
     background: white;
@@ -165,26 +176,58 @@
 }
 #who{
     display: flex;
-    background-color: var(--secondary-color);
-    
-    
-    
+    background-color: var(--fourth-color);
+    padding-top: 15rem;
 }
 #who div{
     flex: 2;
     justify-content: space-between;
-    background-color: var(--secondary-color);
+    background-color:var(--fourth-color);
     
 }
 #who .who-img{
     max-width: 500px;
     width: 500px;
     height: 300px;
-    background-color: rgba(0,0, 0, 43%);
-    border-radius: 0.5rem;
-    background: #333 url(../img/nevím.jpeg)no-repeat center center/cover;
+    border-radius: 16px;
+    background: #333 url(../img/nevím.jpeg)no-repeat center center/cover;   
+}
+#why{
+    display: flex;
+    background-color: var(--fourth-color);
+    padding-top: 20rem;
+}
+#why div{
+    flex: 2;
+    justify-content: space-between;
+    background-color:var(--fourth-color);
     
 }
+#why .why-img{
+    max-width: 500px;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    background: #333 url(../img/cs1.6.jpg)no-repeat center center/cover;   
+}
+#when{
+    display: flex;
+    background-color: var(--fourth-color);
+    padding-top: 20rem;
+}
+#when div{
+    flex: 2;
+    justify-content: space-between;
+    background-color:var(--fourth-color);
+    
+}
+#when .when-img{
+    max-width: 500px;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    background: #333 url(../img/Soucastnost.jpg)no-repeat center center/cover;   
+}
 #zdroje{
-    background-color: var(--secondary-color);
+    background-color: var(--fourth-color);
 }
