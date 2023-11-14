@@ -153,6 +153,7 @@ html {
 #what .item{
     text-align: center;
     padding: 0rem;
+    
 }
 #what .items .item .pistolero i{
     background-color: var(--primary-color);
