@@ -9,10 +9,10 @@
 </head>
 <body>
     <nav id="bar">
-        <div class="logo">
-        Counter-Strike
-        </div>
-        <div class="ne">
+            <div class="logo">
+            Counter-Strike
+            </div>
+            <div class="ne">
             <ul class="menu">
                 <li><a href="index.html#who">Gameplay </a></li>
                 <li><a href="index.html#why">Historie </a></li>
@@ -21,34 +21,38 @@
             </ul> 
         </div> 
     </nav>
+        <section id="tri">
             <div class="velikost">
                 <div class="stylos">
                     <div class="form-items">
-                        <h2 class="a-heading">Register Today</h2>
-                        <form class="requires-validation" novalidate>
+                        <h2 class="a-heading">Přihlaste se </h2>
+                        <form>
                             <div class="py-3">
                                 <div>
-                                <input type="text" name="name" placeholder="jmeno a Příjmení" required>
+                                <label class="label-form">jmeno a Příjmení : </label>
+                                <input type="text" name="name" required>
                                 </div>
                                 <div>
-                                    <input type="password" name="Heslo" placeholder="Heslo">
+                                <label class="label-form">Heslo : </label>
+                                <input type="password" name="Heslo" required>
                                 </div>
                                 <div>
-                                <input type="email" name="email" placeholder="E-mail" required><br>
+                                <label class="label-form">E-mail : </label>
+                                <input type="email" name="email" required><br>
                                 </div> 
                                 
                                 <div>
+                                    <label class="label-form">Chcete obdržen novinky na E-mail</label>
                                     <select class="form-select" required>
-                                        <option selected disabled value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
+                                        <option value="">Ano</option>
+                                        <option value="">Ne</option>
                                     </select>
                                 </div>
                                
                                 <div class="radio">
-                                    <label class="a-heading">Pohlaví :</label>
+                                    <label class="a-heading">Pohlaví : </label>
                                     <input type="radio" class="btn btn-form" name="pohlaví" id="Muž">
-                                    <label class="btn btn-form" for="Muž">Muž</label>
+                                    <label class="btn btn-form" for="Muž" >Muž</label>
                                     <input type="radio" class="btn btn-form" name="pohlaví" id="Žena">
                                     <label class="btn btn-form" for="Žena">Žena</label>
                                     <input type="radio" class="btn btn-form" name="pohlaví" id="jiné">
@@ -62,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            
+        </section>    
          
 </body>
 </html>
