@@ -122,12 +122,16 @@ html {
 .a-heading{
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: var(--primary-color);
 }
 .py-1{
     padding: 1.5rem 0;
 }
 .py-2{
      padding: 2rem;       
+}
+.py-3{
+    padding-top: 1rem;
 }
 .list{
     margin: 0.5rem 0;
