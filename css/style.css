@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400
+    
 }
 @media only screen and (max-width: 600px) {
     .conatiner{
@@ -22,6 +25,8 @@
 }
 html {
     scroll-behavior: smooth;
+    background-color: black;
+
 }
   
 .text-primary{
@@ -86,7 +91,10 @@ html {
 #showcase{
     background: #333 url('../img/cs2.jpg') no-repeat center center/cover;
     height: 100vh; 
-    color: #ffffff; 
+    color: #ffffff;
+    -webkit-box-shadow: 1px 55px 84px -7px rgb(53, 53, 53);
+    -moz-box-shadow: 1px 55px 84px -7px rgb(53, 53, 53);
+    box-shadow: 1px 55px 84px -7px rgb(53, 53, 53);
     
 } 
 #showcase .showcase-content {
@@ -97,7 +105,7 @@ html {
     align-items:center;
     height: 100%;
     padding: 2rem;
-    background-color: rgba(0,0, 0, 43%);
+    background-color: rgb(0,0, 0, 43%);
 }
 .prostred{
     padding-top: 50px;
@@ -151,23 +159,27 @@ html {
 }
 .list{
     margin: 0.5rem 0;
-    list-style: none    ;
+    list-style: none;
 }
 .list li{
     padding: 0.5rem 0;
     border-bottom: #333 dotted 1px;
 }
 #dva{
-    background-color: var(--fourth-color);
+   
 }
 #what{
-    background-color: var(--fourth-color);
+    
     padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: var(--primary-color);
+        
 }
 #what .items{
     display: flex ;
     padding: 1rem;
     justify-content: space-between;
+    
 
 }
 #what .item{
@@ -198,59 +210,48 @@ html {
     background: black;
     color: white;
 }
-#who{
-    display: flex;
-    
-    padding-top: 15rem;
-}
-#who div{
-    flex: 2;
-    justify-content: space-between;
-    background-color:var(--fourth-color);  
-}
-#who .who-img{
-    max-width: 500px;
-    width: 500px;
-    height: 300px;
-    border-radius: 16px;
-    background: #333 url(../img/nevím.jpeg)no-repeat center center/cover;   
-}
+
 #why{
-    display: flex;
-    padding-top: 20rem;
-}
-#why div{
-    flex: 2;
-    justify-content: space-between;
-    background-color:var(--fourth-color);
+    background: #333 url('../img/major.jpg') no-repeat center center/cover;
+    height: 60vh; 
+    color: #ffffff;
+    margin-bottom: 4rem;
+    -webkit-box-shadow: 1px -75px 84px -7px rgb(53, 53, 53);
+    -moz-box-shadow: 1px -75px 84px -7px rgb(53, 53, 53);
+    box-shadow: 1px -75px 84px -7px rgb(53, 53, 53);
     
-}
-#why .why-img{
-    max-width: 500px;
-    width: 500px;
-    height: 300px;
-    border-radius: 16px;
-    background: #333 url(../img/cs1.6.jpg)no-repeat center center/cover;   
+    
+} 
+#why .showcase-content2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    background-color: rgb(0,0, 0, 43%);
 }
 #when{
-    display: flex;
-    padding-top: 20rem;
-}
-#when div{
-    flex: 2;
-    justify-content: space-between;
-    background-color:var(--fourth-color);
+    background: #333 url('../img/skin.png') no-repeat center center/cover;
+    height: 60vh; 
+    color: #ffffff;
+    -webkit-box-shadow: 1px -75px 84px -7px rgb(53, 53, 53);
+    -moz-box-shadow: 1px -75px 84px -7px rgb(53, 53, 53);
+    box-shadow: 1px -75px 84px -7px rgb(53, 53, 53);
     
-}
-#when .when-img{
-    max-width: 500px;
-    width: 500px;
-    height: 300px;
-    border-radius: 16px;
-    background: #333 url(../img/Soucastnost.jpg)no-repeat center center/cover;   
-}
+    
+} 
+#when .showcase-content2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    background-color: rgb(0,0, 0, 43%);
+} 
 #zdroje{
-    background-color: var(--fourth-color);
+
 }
 #tri{
     background-color: var(--third-color);
@@ -269,14 +270,60 @@ html {
 
 }
 .ne2 a{
-    color: var(--third-color);
     border-radius: 5px;
     color: var(--primary-color);
     
 }
-#mapy{
+#bar2{
+    width: 100%;
+    height: 70px;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap
+    justify-content: space-between;
+    position: absolute;
+}
+#bar2 a{
+    text-decoration: none;
+    text-wrap: left;
+}
+#bar2 ul {
+    display: flex;
+    list-style: none; 
+    align-items: center ;
+    padding-left: 30%;
+    
     
 }
+#bar2 ul li {
+    padding:  0.75rem;
+    margin: 0.25rem;
+   
+}
+#bar2 ul li :hover{
+    background-color: var(--third-color);
+    border-radius: 5px;
+}
+#who{
+    background: #333 url('../img/mapy.jpg') no-repeat center center/cover;
+    height: 60vh; 
+    color: #ffffff;
+    margin-bottom: 4rem;
+    -webkit-box-shadow: 1px -75px 84px -7px rgb(61, 61, 61);
+    -moz-box-shadow: 1px -75px 84px -7px rgb(61, 61, 61);
+    box-shadow: 1px -75px 84px -7px rgb(61, 61, 61);
+    
+} 
+#who .showcase-content2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    background-color: rgb(0,0, 0, 43%);
+}
+.barva {
+    color: var(--primary-color);
+    font-weight: 600;
+    
+}
+

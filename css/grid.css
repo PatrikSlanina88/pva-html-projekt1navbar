@@ -1,0 +1,14 @@
+
+#mapy {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-left: 2rem;
+  }
+#mapy img {
+    width: 250px;
+    height: 250px;
+    margin-top: 5rem;   
+    max-width: 1050px; 
+}    
