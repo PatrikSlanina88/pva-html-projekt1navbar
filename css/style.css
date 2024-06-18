@@ -8,15 +8,6 @@
     font-weight: 400
     
 }
-@media only screen and (max-width: 600px) {
-    .conatiner{
-        width: 100%;
-
-    }
-    .logo{
-        display: none;
-    }
-}
 :root{
     --primary-color: rgb(233, 154, 59);
     --secondary-color: rgb(131, 131, 131);
@@ -26,7 +17,7 @@
 html {
     scroll-behavior: smooth;
     background-color: black;
-
+    
 }
   
 .text-primary{
